@@ -304,7 +304,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // === Portfolio Page - Filterable Grid & Lightbox/Modal ===
   const portfolioFilterButtons = document.querySelectorAll('.portfolio-filters .filter-btn');
   const portfolioItems = document.querySelectorAll('.portfolio-item');
   const projectModal = document.getElementById('projectModal');
@@ -359,7 +358,6 @@ document.addEventListener("DOMContentLoaded", () => {
     filterPortfolioItems('all');
   }
 
-  // === Services Page - Dynamic Filtering & Price Calculator ===
   if (document.body.classList.contains('services-page')) {
     const serviceFilterButtons = document.querySelectorAll('.services-filters .filter-service-btn');
     const serviceItems = document.querySelectorAll('.service-item');
