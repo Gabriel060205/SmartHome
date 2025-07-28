@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ELSmart - Solusi Rumah Pintar</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="navbar-container">
+      <div class="logo">ELSmart</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Homepage</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="services.html">Service</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>ELSmart Home</h1>
+      <div class="typed-text"></div>
+      <p class="hero-subtitle">Mewujudkan rumah impian Anda yang cerdas dan efisien.</p>
+
+      <div class="stats">
+        <div class="stat-item">
+          <span id="homesConnected">0</span>
+          Rumah Terhubung
+        </div>
+        <div class="stat-item">
+          <span id="projectsDone">0</span>
+          Proyek Selesai
+        </div>
+        <div class="stat-item">
+          <span id="successRate">0</span>
+          Tingkat Keberhasilan
+        </div>
+      </div>
+      <a href="#features" class="cta-button">Pelajari Lebih Lanjut</a>
+    </div>
+  </section>
+    
+  <section class="features" id="features">
+    <h2 class="section-title">Fitur Unggulan ELSmart</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="icon-container">
+          <img src="Gambar/H1.jpg" class="feature-icon" alt="Sensor Gerakan dan Cahaya" />
+          </div>
+        <div class="short-desc">Deteksi Otomatis & Pencahayaan Adaptif</div>
+        <button class="more-btn">Lebih Lanjut</button>
+        <div class="more-content hidden">
+          Sistem ELSmart mendeteksi aktivitas gerakan dan tingkat cahaya di ruangan, lalu secara cerdas menyesuaikan pencahayaan untuk menciptakan suasana optimal sambil menghemat energi. Ideal untuk koridor, kamar mandi, atau area yang jarang digunakan.
+        </div>
+      </div>
+
+      <div class="feature-card">
+        <div class="icon-container">
+          <img src="Gambar/H2.jpg" class="feature-icon" alt="Kontrol Jarak Jauh Aplikasi Mobile" />
+          </div>
+        <div class="short-desc">Kontrol Penuh via Aplikasi Mobile/Web</div>
+        <button class="more-btn">Lebih Lanjut</button>
+        <div class="more-content hidden">
+          Kendalikan semua perangkat smart home Anda dari mana saja di dunia. Nyalakan AC sebelum tiba di rumah, kunci pintu dari kantor, atau periksa kamera pengawas hanya dengan sentuhan jari pada aplikasi ELSmart di smartphone atau browser web Anda.
+        </div>
+      </div>
+
+      <div class="feature-card">
+        <div class="icon-container">
+          <img src="Gambar/H3.jpg" class="feature-icon" alt="Manajemen Energi Cerdas" />
+          </div>
+        <div class="short-desc">Manajemen Energi & Hemat Biaya</div>
+        <button class="more-btn">Lebih Lanjut</button>
+        <div class="more-content hidden">
+          ELSmart membantu Anda memantau dan mengoptimalkan konsumsi energi. Identifikasi perangkat yang boros, atur jadwal penggunaan, dan terima laporan detail untuk mengurangi tagihan listrik bulanan Anda secara signifikan.
+        </div>
+      </div>
+
+      <div class="feature-card">
+        <div class="icon-container">
+          <img src="Gambar/H4.jpg" class="feature-icon" alt="Keamanan Terintegrasi" />
+          </div>
+        <div class="short-desc">Sistem Keamanan Terintegrasi</div>
+        <button class="more-btn">Lebih Lanjut</button>
+        <div class="more-content hidden">
+          Pastikan rumah Anda selalu aman dengan sistem keamanan terpadu ELSmart. Termasuk kamera pengawas HD, sensor pintu/jendela, dan alarm yang dapat diakses dan dikontrol dari jarak jauh. Notifikasi instan akan dikirimkan ke perangkat Anda jika terdeteksi aktivitas mencurigakan.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2 class="section-title">Apa Kata Klien Kami?</h2>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper" id="testimonial-wrapper">
+        </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <footer class="footer bg-dark">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>ELSmart</h3>
+          <p>Solusi smart home terdepan untuk kenyamanan, keamanan, dan efisiensi energi di rumah Anda.</p>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3>Link Cepat</h3>
+          <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Layanan</h3>
+          <ul>
+            <li><a href="services.html#security">Keamanan Pintar</a></li>
+            <li><a href="services.html#lighting">Pencahayaan Otomatis</a></li>
+            <li><a href="services.html#energy">Manajemen Energi</a></li>
+            <li><a href="services.html#automation">Otomatisasi Rumah</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Kontak Kami</h3>
+          <p><i class="fas fa-map-marker-alt"></i> Jl. Contoh No. 123, Surabaya, Indonesia</p>
+          <p><i class="fas fa-phone"></i> +62 812 3456 7890</p>
+          <p><i class="fas fa-envelope"></i> info@elsmart.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 ELSmart. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

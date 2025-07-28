@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan Kami - ELSmart | Solusi Smart Home Lengkap</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="services-page">
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="logo">ELSmart</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Homepage</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="services.html" class="active">Service</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="services-hero">
+            <div class="services-hero-overlay"></div>
+            <div class="services-hero-content">
+                <h1>Layanan Kami</h1>
+                <p>Solusi smart home inovatif untuk setiap kebutuhan Anda.</p>
+            </div>
+        </section>
+
+        <section class="services-list-section section-padding">
+            <div class="container">
+                <div class="services-filters">
+                    <button class="filter-service-btn active" data-filter="all">Semua Layanan</button>
+                    <button class="filter-service-btn" data-filter="keamanan" id="security">Keamanan Pintar</button>
+                    <button class="filter-service-btn" data-filter="pencahayaan" id="lighting">Pencahayaan Otomatis</button>
+                    <button class="filter-service-btn" data-filter="energi" id="energy">Manajemen Energi</button>
+                    <button class="filter-service-btn" data-filter="otomatisasi" id="automation">Otomatisasi Rumah</button>
+                </div>
+
+                <div class="services-grid" id="services-grid">
+                    <div class="service-item" data-category="keamanan">
+                        <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+                        <h3>Sistem Keamanan Pintar</h3>
+                        <p>Lindungi rumah Anda dengan sistem keamanan canggih yang terintegrasi, termasuk kamera CCTV, sensor pintu/jendela, dan alarm pintar.</p>
+                        <div class="service-details hidden">
+                            <p>Fitur:</p>
+                            <ul>
+                                <li>Pemantauan real-time via aplikasi mobile</li>
+                                <li>Notifikasi instan saat terdeteksi aktivitas mencurigakan</li>
+                                <li>Integrasi dengan kunci pintu pintar dan interkom video</li>
+                                <li>Penyimpanan cloud aman untuk rekaman video</li>
+                            </ul>
+                            <p>Cocok untuk: Rumah tinggal, kantor kecil, toko ritel.</p>
+                        </div>
+                        <button class="more-details-btn">Lihat Detail</button>
+                    </div>
+
+                    <div class="service-item" data-category="pencahayaan">
+                        <div class="service-icon"><i class="fas fa-lightbulb"></i></div>
+                        <h3>Pencahayaan Otomatis & Adaptif</h3>
+                        <p>Kontrol pencahayaan rumah Anda dari mana saja, jadwalkan, dan sesuaikan suasana dengan sentuhan jari atau perintah suara.</p>
+                        <div class="service-details hidden">
+                            <p>Fitur:</p>
+                            <ul>
+                                <li>Kontrol on/off, dimming, dan perubahan warna (RGB)</li>
+                                <li>Penjadwalan otomatis berdasarkan waktu atau kehadiran</li>
+                                <li>Sensor cahaya untuk penyesuaian otomatis</li>
+                                <li>Integrasi dengan asisten suara (Google Assistant, Alexa)</li>
+                            </ul>
+                            <p>Cocok untuk: Ruang tamu, kamar tidur, taman, area komersial.</p>
+                        </div>
+                        <button class="more-details-btn">Lihat Detail</button>
+                    </div>
+
+                    <div class="service-item" data-category="energi">
+                        <div class="service-icon"><i class="fas fa-bolt"></i></div>
+                        <h3>Manajemen Energi Cerdas</h3>
+                        <p>Optimalkan penggunaan energi di rumah Anda, hemat biaya listrik, dan berkontribusi pada lingkungan yang lebih hijau.</p>
+                        <div class="service-details hidden">
+                            <p>Fitur:</p>
+                            <ul>
+                                <li>Pemantauan konsumsi listrik real-time</li>
+                                <li>Kontrol termostat pintar untuk AC/pemanas</li>
+                                <li>Penjadwalan perangkat elektronik untuk efisiensi</li>
+                                <li>Laporan analisis penggunaan energi bulanan</li>
+                            </ul>
+                            <p>Cocok untuk: Pengguna yang ingin menghemat biaya listrik, rumah ramah lingkungan.</p>
+                        </div>
+                        <button class="more-details-btn">Lihat Detail</button>
+                    </div>
+
+                    <div class="service-item" data-category="otomatisasi">
+                        <div class="service-icon"><i class="fas fa-home"></i></div>
+                        <h3>Otomatisasi Rumah Lengkap</h3>
+                        <p>Ciptakan skenario otomatisasi yang disesuaikan untuk kenyamanan maksimal, dari bangun tidur hingga kembali ke rumah.</p>
+                        <div class="service-details hidden">
+                            <p>Fitur:</p>
+                            <ul>
+                                <li>Integrasi berbagai perangkat (tirai, pintu garasi, audio/video)</li>
+                                <li>Skenario "Selamat Pagi", "Pulang Kerja", "Mode Liburan"</li>
+                                <li>Kontrol terpusat via panel sentuh atau aplikasi</li>
+                                <li>Automasi berbasis sensor (gerak, suhu, kelembaban)</li>
+                            </ul>
+                            <p>Cocok untuk: Rumah modern, pengguna yang menginginkan kemudahan.</p>
+                        </div>
+                        <button class="more-details-btn">Lihat Detail</button>
+                    </div>
+
+                    <div class="service-item" data-category="otomatisasi">
+                        <div class="service-icon"><i class="fas fa-microphone"></i></div>
+                        <h3>Integrasi Kontrol Suara</h3>
+                        <p>Kontrol seluruh rumah pintar Anda hanya dengan perintah suara melalui asisten virtual favorit Anda.</p>
+                        <div class="service-details hidden">
+                            <p>Fitur:</p>
+                            <ul>
+                                <li>Kompatibel dengan Google Assistant, Amazon Alexa, Apple HomeKit</li>
+                                <li>Kontrol lampu, suhu, keamanan, dan hiburan</li>
+                                <li>Pengaturan rutinitas suara kustom</li>
+                                <li>Mendukung berbagai bahasa</li>
+                            </ul>
+                            <p>Cocok untuk: Pengguna yang menginginkan interaksi hands-free.</p>
+                        </div>
+                        <button class="more-details-btn">Lihat Detail</button>
+                    </div>
+
+                    <div class="service-item" data-category="energi">
+                        <div class="service-icon"><i class="fas fa-water"></i></div>
+                        <h3>Sistem Irigasi Pintar</h3>
+                        <p>Otomatisasi penyiraman taman Anda berdasarkan cuaca lokal dan kebutuhan tanaman, menghemat air dan waktu.</p>
+                        <div class="service-details hidden">
+                            <p>Fitur:</p>
+                            <ul>
+                                <li>Sensor kelembaban tanah dan prakiraan cuaca</li>
+                                <li>Penjadwalan penyiraman otomatis</li>
+                                <li>Kontrol zona individual</li>
+                                <li>Notifikasi tentang status irigasi</li>
+                            </ul>
+                            <p>Cocok untuk: Pemilik taman, rumah dengan area hijau luas.</p>
+                        </div>
+                        <button class="more-details-btn">Lihat Detail</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="price-calculator-section section-padding bg-light">
+            <div class="container text-center">
+                <h2 class="section-title">Estimasi Biaya Proyek Anda</h2>
+                <p class="section-description">Dapatkan perkiraan biaya untuk proyek smart home Anda. Pilih jenis layanan dan jumlah perangkat.</p>
+                <div class="calculator-form">
+                    <div class="form-group">
+                        <label for="serviceType">Pilih Jenis Layanan Utama:</label>
+                        <select id="serviceType">
+                            <option value="keamanan">Keamanan Pintar</option>
+                            <option value="pencahayaan">Pencahayaan Otomatis</option>
+                            <option value="energi">Manajemen Energi</option>
+                            <option value="otomatisasi">Otomatisasi Rumah</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="numDevices">Jumlah Perangkat (Estimasi):</label>
+                        <input type="number" id="numDevices" value="5" min="1" max="50">
+                    </div>
+                    <button id="calculatePriceBtn" class="cta-button">Hitung Estimasi</button>
+                    <div class="calculation-result">
+                        <p>Estimasi Biaya: <span id="estimatedPrice">Rp 0</span></p>
+                        <small>*Estimasi ini belum termasuk biaya instalasi dan dapat bervariasi.</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-blog section-padding bg-dark">
+            <div class="container text-center">
+                <h2 class="section-title-white">Siap Memulai Proyek Smart Home Anda?</h2>
+                <p class="text-white-opacity">Kami akan membantu Anda merancang solusi yang sempurna.</p>
+                <a href="contact.html" class="cta-button">Konsultasi Gratis</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer bg-dark">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>ELSmart</h3>
+                    <p>Solusi smart home terdepan untuk kenyamanan, keamanan, dan efisiensi energi di rumah Anda.</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Link Cepat</h3>
+                    <ul>
+                        <li><a href="index.html">Homepage</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Layanan</h3>
+                    <ul>
+                        <li><a href="services.html#security">Keamanan Pintar</a></li>
+                        <li><a href="services.html#lighting">Pencahayaan Otomatis</a></li>
+                        <li><a href="services.html#energy">Manajemen Energi</a></li>
+                        <li><a href="services.html#automation">Otomatisasi Rumah</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Kontak Kami</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Contoh No. 123, Surabaya, Indonesia</p>
+                    <p><i class="fas fa-phone"></i> +62 812 3456 7890</p>
+                    <p><i class="fas fa-envelope"></i> info@elsmart.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ELSmart. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
